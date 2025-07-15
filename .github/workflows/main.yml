@@ -94,7 +94,7 @@ jobs:
           ./gradlew check jacoco javadoc --no-daemon --priority=normal
 
       # Codecov
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v5
         if: ${{ github.event.inputs.skip-test == 'false' || github.event.inputs.skip-test == '' }}
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
