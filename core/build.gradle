@@ -33,10 +33,10 @@ dependencies {
     implementation 'com.github.docker-java:docker-java-transport-httpclient5:3.3.1'
 
     // schema
-    implementation group: 'com.github.victools', name: 'jsonschema-generator', version: '4.31.1'
-    implementation group: 'com.github.victools', name: 'jsonschema-module-javax-validation', version: '4.31.1'
-    implementation group: 'com.github.victools', name: 'jsonschema-module-jackson', version: '4.31.1'
-    implementation group: 'com.github.victools', name: 'jsonschema-module-swagger-2', version: '4.31.1'
+    implementation group: 'com.github.victools', name: 'jsonschema-generator', version: '4.38.0'
+    implementation group: 'com.github.victools', name: 'jsonschema-module-javax-validation', version: '4.38.0'
+    implementation group: 'com.github.victools', name: 'jsonschema-module-jackson', version: '4.38.0'
+    implementation group: 'com.github.victools', name: 'jsonschema-module-swagger-2', version: '4.38.0'
 
     // test
     testImplementation project(':repository-memory')
