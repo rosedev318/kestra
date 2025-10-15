@@ -59,7 +59,7 @@
     "@vue/eslint-config-prettier": "^8.0.0",
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.46.0",
-    "eslint-plugin-vue": "^9.17.0",
+    "eslint-plugin-vue": "^10.5.1",
     "jsdom": "^22.1.0",
     "monaco-editor": "^0.39.0",
     "monaco-yaml": "4.0.0-alpha.0",
